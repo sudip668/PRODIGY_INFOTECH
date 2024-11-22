@@ -1,0 +1,175 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Navigation Bar */
+#navbar {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar li {
+  margin: 0 15px;
+}
+
+#navbar a:hover {
+  color: #ff7f50;
+}
+
+/* Home Section */
+#home {
+  height: 100vh;
+  background: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  color: rgb(15, 14, 14);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile-pic-home {
+  width: 450px;
+  height: 350px;
+  border-radius: 20%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cta-button {
+  background: #ff7f50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(8, 8, 8);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* About Section */
+#about {
+  padding: 80px 20px;
+  color: rgb(8, 8, 8);
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+.profile-pic-about {
+  width: 350px;
+  height: 350px;
+  border-radius: 20%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.section-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Skills Section */
+.skills-grid {
+  color: rgb(8, 8, 8);
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Work Section */
+.work-grid {
+  display: grid;
+  place-items: center;
+  color: rgb(8, 8, 8);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.work-item img {
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+}
+
+.view-project {
+  margin-top: 10px;
+  display: inline-block;
+  background: rgb(12, 12, 12);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+.contact-grid {
+  display: grid;
+  color: rgb(8, 8, 8);
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background: rgb(247, 244, 244);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(20, 19, 19);
+}
+
+.contact-form button {
+  background: rgb(7, 7, 7);
+  color: rgb(248, 232, 232);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.social-icons {
+  font-size: 2rem;
+}
+.skill-item {
+  font-size: 2rem;
+}
